@@ -23,7 +23,7 @@ public class EmployeeController {
 	@Autowired
 	private EmployeeService service;
 
-	@GetMapping("/home")
+	@GetMapping(value = {"/home","/"})
 	public ModelAndView getHome() {
 		return new ModelAndView("homepage");
 	}
