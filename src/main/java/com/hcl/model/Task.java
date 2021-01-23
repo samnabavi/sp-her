@@ -22,8 +22,8 @@ public class Task {
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private long id;
 	private String name;
-//	private String startDate;
-//	private String endDate;
+	private String startDate;
+	private String endDate;
 	//private Date startDate;
 	//private Date endDate;
 	private String description;
